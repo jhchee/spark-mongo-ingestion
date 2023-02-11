@@ -1,2 +1,2 @@
 # spark-mongo-ingestion
-Demonstrate Spark reading Parquet files and writing them to MongoDB
+Demonstrate how would Spark ingest Parquet files and write it to MongoDB
