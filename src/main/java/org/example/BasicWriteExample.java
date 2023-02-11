@@ -16,7 +16,7 @@ public class BasicWriteExample {
         Instant begin = Instant.now();
         SparkSession spark = SparkSession
                 .builder()
-                .master("local")
+                .master("local[*]")
                 .appName("spark session")
                 .getOrCreate();
 

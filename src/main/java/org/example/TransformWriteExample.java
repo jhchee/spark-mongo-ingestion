@@ -44,8 +44,7 @@ public class TransformWriteExample {
         );
         user = user.withColumn("updated_on", current_timestamp());
         String connectionUri = "mongodb://localhost:27017";
-        user
-            .write()
+        user.write()
             .format("mongodb")
             .mode("append")
             .option("database", "spark")
